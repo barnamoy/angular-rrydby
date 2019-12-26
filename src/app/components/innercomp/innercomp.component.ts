@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ConnentService } from './../Connent.service.ts';
-
+import{ConnentService} from './../../Connent.service';
 @Component({
   selector: 'app-innercomp',
   templateUrl: './innercomp.component.html',
@@ -14,5 +13,6 @@ export class InnercompComponent implements OnInit {
   }
   submit(){
     console.log("i got clicked");
+    
   }
 }
